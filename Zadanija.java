@@ -21,16 +21,16 @@ public class Zadanija {
 	    
 	    int res = a1+a2-a3+a4-a5+a6-a7+a8;
 	    
-	    System.out.println("Çàäàíî ÷èñëî - "+n);
-	    System.out.println("Ðåçóëüòàò  5+6-3+2-5+6-3+8 = "+res);
+	    System.out.println("Ð—Ð°Ð´Ð°Ð½Ð¾ Ñ‡Ð¸ÑÐ»Ð¾ - "+n);
+	    System.out.println("Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚  5+6-3+2-5+6-3+8 = "+res);
 	}
 	
 	public static void _3() {
 		int dohod = 200000;
-		System.out.println("Âàø åæåìåñÿ÷íûé äîõîä - "+dohod);
-		if(dohod > 0 & dohod < 1000) {System.out.println("êðèòè÷åñêè ìàëûé äîõîä");}
-		else if (dohod > 1000 & dohod < 5000) {System.out.println("ñðåäíèé äîõîä");}
-		else if (dohod > 5000 & dohod < 100000) {System.out.println("âûñîêèé äîõîä");}
-		else if (dohod > 100000) {System.out.println("Âû ìèëëèîíåð");} 
+		System.out.println("Ð’Ð°Ñˆ ÐµÐ¶ÐµÐ¼ÐµÑÑÑ‡Ð½Ñ‹Ð¹ Ð´Ð¾Ñ…Ð¾Ð´ - "+dohod);
+		if(dohod > 0 & dohod < 1000) {System.out.println("ÐºÑ€Ð¸Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¸ Ð¼Ð°Ð»Ñ‹Ð¹ Ð´Ð¾Ñ…Ð¾Ð´");}
+		else if (dohod > 1000 & dohod < 5000) {System.out.println("ÑÑ€ÐµÐ´Ð½Ð¸Ð¹ Ð´Ð¾Ñ…Ð¾Ð´");}
+		else if (dohod > 5000 & dohod < 100000) {System.out.println("Ð²Ñ‹ÑÐ¾ÐºÐ¸Ð¹ Ð´Ð¾Ñ…Ð¾Ð´");}
+		else if (dohod > 100000) {System.out.println("Ð’Ñ‹ Ð¼Ð¸Ð»Ð»Ð¸Ð¾Ð½ÐµÑ€");} 
 	}
 }
