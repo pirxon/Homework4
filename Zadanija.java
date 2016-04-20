@@ -13,16 +13,16 @@ public class Zadanija {
 		int a1 = (temp % 100000000 / 10000000);
 		int a2 = (temp % 10000000 / 1000000);
 		int a3 = (temp % 1000000 / 100000);
-	    int a4 = (temp % 100000 / 10000);
+	    	int a4 = (temp % 100000 / 10000);
 	 	int a5 = (temp % 10000 / 1000);
-	    int a6 = (temp % 1000 / 100);
-	    int a7 = (temp % 100 / 10);
-	    int a8 = (temp % 10);
+	    	int a6 = (temp % 1000 / 100);
+	    	int a7 = (temp % 100 / 10);
+	    	int a8 = (temp % 10);
 	    
-	    int res = a1+a2-a3+a4-a5+a6-a7+a8;
+	    	int res = a1+a2-a3+a4-a5+a6-a7+a8;
 	    
-	    System.out.println("Задано число - "+n);
-	    System.out.println("Результат  5+6-3+2-5+6-3+8 = "+res);
+		System.out.println("Задано число - "+n);
+	    	System.out.println("Результат  5+6-3+2-5+6-3+8 = "+res);
 	}
 	
 	public static void _3() {
